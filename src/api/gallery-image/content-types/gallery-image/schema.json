@@ -4,26 +4,28 @@
   "info": {
     "singularName": "gallery-image",
     "pluralName": "gallery-images",
-    "displayName": "gallery-images",
-    "description": ""
+    "displayName": "gallery-image"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "url": {
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
     }
   }
 }
