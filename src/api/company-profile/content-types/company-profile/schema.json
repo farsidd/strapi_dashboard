@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_profiles",
+  "info": {
+    "singularName": "company-profile",
+    "pluralName": "company-profiles",
+    "displayName": "Company Profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_production_areas",
+  "info": {
+    "singularName": "top-production-area",
+    "pluralName": "top-production-areas",
+    "displayName": "Top Production Area"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
