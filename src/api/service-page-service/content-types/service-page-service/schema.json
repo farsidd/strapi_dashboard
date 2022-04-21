@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_page_services",
+  "info": {
+    "singularName": "service-page-service",
+    "pluralName": "service-page-services",
+    "displayName": "Service Page Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "flaticon_name": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}
