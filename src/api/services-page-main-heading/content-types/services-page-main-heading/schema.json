@@ -4,7 +4,8 @@
   "info": {
     "singularName": "services-page-main-heading",
     "pluralName": "services-page-main-headings",
-    "displayName": "Services Page Main Heading"
+    "displayName": "Services Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,10 @@
   "attributes": {
     "heading": {
       "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
       "required": true
     }
   }
