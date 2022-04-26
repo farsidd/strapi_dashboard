@@ -4,10 +4,11 @@
   "info": {
     "singularName": "company-profile",
     "pluralName": "company-profiles",
-    "displayName": "Company Profile"
+    "displayName": "Company Profile",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

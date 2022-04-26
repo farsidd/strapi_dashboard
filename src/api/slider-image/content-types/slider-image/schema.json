@@ -4,20 +4,21 @@
   "info": {
     "singularName": "slider-image",
     "pluralName": "slider-images",
-    "displayName": "slider-image"
+    "displayName": "slider-image",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "heading": {
       "type": "string",
