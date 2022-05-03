@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_production_slides",
+  "info": {
+    "singularName": "home-page-production-slide",
+    "pluralName": "home-page-production-slides",
+    "displayName": "Home Page Production Slides"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

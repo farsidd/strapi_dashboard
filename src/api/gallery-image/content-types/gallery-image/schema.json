@@ -27,6 +27,15 @@
         "videos",
         "audios"
       ]
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 75
     }
   }
 }

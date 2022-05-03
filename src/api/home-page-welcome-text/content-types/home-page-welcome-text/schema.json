@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_welcome_texts",
+  "info": {
+    "singularName": "home-page-welcome-text",
+    "pluralName": "home-page-welcome-texts",
+    "displayName": "Home Page Welcome Text"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

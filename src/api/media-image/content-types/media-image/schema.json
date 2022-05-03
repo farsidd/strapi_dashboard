@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_images",
+  "info": {
+    "singularName": "media-image",
+    "pluralName": "media-images",
+    "displayName": "Media Images"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
