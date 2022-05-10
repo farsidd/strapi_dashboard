@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-page-production-slide",
     "pluralName": "home-page-production-slides",
-    "displayName": "Home Page Production Slides"
+    "displayName": "Home Page Production Slides",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,6 +18,19 @@
     },
     "description": {
       "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "unique": false,
       "required": true
     }
   }
