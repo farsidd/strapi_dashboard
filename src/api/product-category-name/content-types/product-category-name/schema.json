@@ -4,17 +4,22 @@
   "info": {
     "singularName": "product-category-name",
     "pluralName": "product-category-names",
-    "displayName": "product-category-name"
+    "displayName": "product-category-name",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "Heading": {
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "filter_name": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -4,26 +4,28 @@
   "info": {
     "singularName": "product-image",
     "pluralName": "product-images",
-    "displayName": "product-images"
+    "displayName": "product-images",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "category_name": {
+    "filter_name": {
       "type": "string",
       "required": true
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "url": {
       "type": "string",
